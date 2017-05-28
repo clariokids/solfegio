@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.training.music.solfegio.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="60dp">
+
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:gravity="top|center"
+                android:orientation="vertical"
+                android:paddingBottom="20dp"
+                android:paddingEnd="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingStart="20dp">
+
+               <LinearLayout
+                   android:id="@+id/info_text"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="@dimen/activity_horizontal_margin"
+                   android:orientation="vertical"
+                   android:visibility="gone">
+
+                   <TextView
+                       android:id="@+id/label_content_menu"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content" />
+
+                   <TextView
+                       android:id="@+id/help_text"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content" />
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:id="@+id/menu_content"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="center"
+                       android:text="@string/app_name"
+                       android:textStyle="bold" />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginBottom="@dimen/activity_vertical_margin"
+                       android:text="@string/text_solfegio_1" />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginBottom="@dimen/activity_vertical_margin"
+                       android:text="@string/text_solfegio_2" />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginBottom="@dimen/activity_vertical_margin"
+                       android:text="@string/text_solfegio_3" />
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:id="@+id/menu_button"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical">
+
+                   <Button
+                       android:id="@+id/btn_rhythm"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:drawableStart="@drawable/ic_rhythm"
+                       android:text="@string/menu_rhythm" />
+
+                   <Button
+                       android:id="@+id/btn_melody"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:drawableStart="@drawable/ic_melody"
+                       android:text="@string/menu_melody" />
+
+                   <Button
+                       android:id="@+id/btn_interval"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:drawableStart="@drawable/ic_interval"
+                       android:text="@string/menu_interval" />
+
+               </LinearLayout>
+
+
+            </LinearLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="?android:attr/windowBackground"
+            app:menu="@menu/navigation" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

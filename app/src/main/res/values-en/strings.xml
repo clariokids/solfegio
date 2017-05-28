@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Solfegio</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_home">Home</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_materi">Material</string>
+    <string name="title_question">Question</string>
+    <string name="title_help">Help</string>
+    <string name="menu_rhythm">Rhythm</string>
+    <string name="menu_melody">Melody</string>
+    <string name="menu_interval">Interval</string>
+    <string name="label_content_material">Choose your material</string>
+    <string name="label_content_question">Choose your question</string>
+    <string name="label_content_help">How to use</string>
+    <string name="contact_help">Contact us at 123-1234567</string>
+</resources>

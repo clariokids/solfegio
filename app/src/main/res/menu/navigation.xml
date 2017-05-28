@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_material"
+        android:icon="@drawable/ic_queue_music_black_24dp"
+        android:title="@string/title_materi" />
+
+    <item
+        android:id="@+id/navigation_question"
+        android:icon="@drawable/ic_question_answer_black_24dp"
+        android:title="@string/title_question" />
+
+    <item
+        android:id="@+id/navigation_help"
+        android:icon="@drawable/ic_help_black_24dp"
+        android:title="@string/title_help" />
+
+</menu>

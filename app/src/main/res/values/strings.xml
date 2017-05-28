@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Solfegio</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_materi">Material</string>
+    <string name="title_question">Question</string>
+    <string name="title_help">Help</string>
+    <string name="menu_rhythm">Rhythm</string>
+    <string name="menu_melody">Melody</string>
+    <string name="menu_interval">Interval</string>
+    <string name="label_content_material">Choose your material</string>
+    <string name="label_content_question">Choose your question</string>
+    <string name="label_content_help">How to use</string>
+    <string name="text_solfegio_1" translatable="false">Dikutip dari Wikipedia: Solfegio is a singing technique used to teach pitch. Solfège is usually taught during several years of undergraduate university musical study. The system of arranging the scale by the names do, re, mi, fa, sol, la, si, by which singing is taught; a singing exercise upon these syllables.</string>
+    <string name="text_solfegio_2" translatable="false">Solfegio adalah latihan kemampuan pendengaran atau ketajaman pendengaran musik, baik ketepatan ritmik maupun ketepatan nadanya.</string>
+    <string name="text_solfegio_3" translatable="false">Solfegio adalah istilah yang mengacu pada menyanyikan tangga nada, interval dan latihan-latihan melodi dengan sillaby zolmization yaitu, dengan menyanyikan solmisasi (do,re,mi,dst) dan kemudian dikembangkan dengan menempatkan huruf vocal (a,i,u,e,o) sebagai ganti solmisasi.</string>
+    <string name="text_rhythm_1" translatable="false">Ritme merupakan unsur yang sangat penting di dalam musik. Ritme berkaitan dengan durasi, yang setiap pola memiliki nilai-nilai. Oleh sebab itu kita perlu mengetahui bermacam-macam nilai notasi.</string>
+    <string name="text_rhythm_2" translatable="false">\na) Nilai-Nilai Pada Notasi Balok \nNot penuh \t   :\t     (bernilai 4 ketuk) \nNot setengah\t   :\t     (bernilai 2 ketuk) \nNot seperempat\t   :\t     (bernilai 1 ketuk) \nNot seperdelapan:\t     (bernilai ½ ketuk) \n\nContoh:</string>
+    <string name="text_rhythm_3" translatable="false">\t \u25CF Not penuh dengan not setengah</string>
+    <string name="text_rhythm_4" translatable="false">\t \u25CF Not setengah dengan not seperempat</string>
+    <string name="text_rhythm_5" translatable="false">\t \u25CF Not seperempat dengan not seperdelapan</string>
+    <string name="text_rhythm_6" translatable="false">\nb) Tanda Istirahat \nTanda istirahat adalah tanda diam di dalam musik. \n\t: diam selama 1 ketukan \nContoh: \n \t \u25CF Tanda diam 1 ketukan</string>
+    <string name="text_melody_1" translatable="false">A. NADA \n Nada merupakan notasi yang mempunyai pitch (tinggi dan rendah) tertentu. Tinggi rendah nada dapat dibedakan dengan symbol huruf, misalnya tinggi rendah nada C berbeda dengan nada D.</string>
+    <string name="text_melody_2" translatable="false">\nContoh diatas merupakan tangga nada C Mayor, tangga nada natural yaitu tangga nada asli yang belum ada perubahan # (penaikan), b (penurunan). Untuk lebih jelasnya latihan tangga nada dengan lafal:</string>
+    <string name="text_melody_3" translatable="false">\nB. Menulis Melodi \nLatihan ini ditekankan pada respon siswa terhadap melodi, baik melodi dipraktekkan/dinyanyikan maupun menulis melodi yang diperdengarkan. Hal-hal yang perlu diperhatikan adalah: \n 1. Perhatikan/dengarkan nada-nada secara baik \n 2. Perhatikan sukat di depan birama, dengan mendengarkan ketukan kuat (aksen) pada awal birama \n 3. Perhatikan bentuk pola ritme secara tepat</string>
+    <string name="text_interval_1" translatable="false">Interval merupakan istilah yang menerangkan jarak antara nada satu dengan yang lain. Untuk mengetahui jarak antar nada tersebut biasanya diindikasikan dengan symbol-simbol interval. Contoh: P (Perfect), M (Mayor)</string>
+    <string name="contact_help">Contact us at 123-1234567</string>
+
+</resources>
