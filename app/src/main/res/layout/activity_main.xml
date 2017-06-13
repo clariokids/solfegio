@@ -25,25 +25,6 @@
                 android:paddingRight="20dp"
                 android:paddingStart="20dp">
 
-               <LinearLayout
-                   android:id="@+id/info_text"
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:layout_margin="@dimen/activity_horizontal_margin"
-                   android:orientation="vertical"
-                   android:visibility="gone">
-
-                   <TextView
-                       android:id="@+id/label_content_menu"
-                       android:layout_width="wrap_content"
-                       android:layout_height="wrap_content" />
-
-                   <TextView
-                       android:id="@+id/help_text"
-                       android:layout_width="wrap_content"
-                       android:layout_height="wrap_content" />
-
-               </LinearLayout>
 
                <LinearLayout
                    android:id="@+id/menu_content"
@@ -78,6 +59,14 @@
 
                </LinearLayout>
 
+               <EditText
+                   android:id="@+id/username"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:hint="@string/input_name"
+                   android:layout_marginTop="@dimen/activity_vertical_margin"
+                   android:visibility="gone" />
+
                <LinearLayout
                    android:id="@+id/menu_button"
                    android:layout_width="match_parent"
@@ -89,21 +78,24 @@
                        android:layout_width="match_parent"
                        android:layout_height="wrap_content"
                        android:drawableStart="@drawable/ic_rhythm"
-                       android:text="@string/menu_rhythm" />
+                       android:text="@string/menu_rhythm"
+                       android:drawableLeft="@drawable/ic_rhythm" />
 
                    <Button
                        android:id="@+id/btn_melody"
                        android:layout_width="match_parent"
                        android:layout_height="wrap_content"
                        android:drawableStart="@drawable/ic_melody"
-                       android:text="@string/menu_melody" />
+                       android:text="@string/menu_melody"
+                       android:drawableLeft="@drawable/ic_melody" />
 
                    <Button
                        android:id="@+id/btn_interval"
                        android:layout_width="match_parent"
                        android:layout_height="wrap_content"
                        android:drawableStart="@drawable/ic_interval"
-                       android:text="@string/menu_interval" />
+                       android:text="@string/menu_interval"
+                       android:drawableLeft="@drawable/ic_interval" />
 
                </LinearLayout>
 
@@ -111,6 +103,34 @@
             </LinearLayout>
 
     </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/info_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/label_content_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/help_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_score"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/info_text"
+        android:visibility="gone" />
 
     <RelativeLayout
         android:layout_width="wrap_content"

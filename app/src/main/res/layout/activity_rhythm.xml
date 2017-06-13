@@ -49,6 +49,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@mipmap/rhythm_setengah"
+                android:id="@+id/sample_1"
                 android:contentDescription="@string/menu_rhythm" />
 
             <TextView
@@ -60,6 +61,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@mipmap/rhythm_seperempat"
+                android:id="@+id/sample_2"
                 android:contentDescription="@string/menu_rhythm" />
 
             <TextView
@@ -71,6 +73,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@mipmap/rhythm_seperdelapan"
+                android:id="@+id/sample_3"
                 android:contentDescription="@string/menu_rhythm" />
 
             <TextView
@@ -82,6 +85,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@mipmap/rhythm_ketukan"
+                android:id="@+id/sample_4"
                 android:contentDescription="@string/menu_rhythm" />
 
             </LinearLayout>

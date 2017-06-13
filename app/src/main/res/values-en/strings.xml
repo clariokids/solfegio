@@ -14,4 +14,13 @@
     <string name="label_content_question">Choose your question</string>
     <string name="label_content_help">How to use</string>
     <string name="contact_help">Contact us at 123-1234567</string>
+    <string name="question_rhythm_title">Rhythm Question \nOrder the Correct Notation Based on the Sound\n(Click Image to Replay Sound)</string>
+    <string name="quiz_answer">Answer</string>
+    <string name="quiz_clear">Clear</string>
+    <string name="quiz_backspace">Backspace</string>
+    <string name="major_title">Major</string>
+    <string name="perfect_title">Perfect</string>
+    <string name="question_interval_title">Interval Question\nChoose the Correct Image Based on the Sound\n(Click Button Soal to Replay Sound)</string>
+    <string name="question_melody_title">Melody Question\nOrder the Correct Notation Based on the Sound \n(Click Image to Replay Sound)</string>
+    <string name="input_name">Input Your Name (min. 3)</string>
 </resources>

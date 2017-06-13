@@ -14,4 +14,13 @@
     <string name="label_content_question">Pilih pertanyaan anda</string>
     <string name="label_content_help">Cara penggunaan</string>
     <string name="contact_help">Hubungi kami di 123-1234567</string>
+    <string name="question_rhythm_title">Soal Ritme\nSusun Sesuai dengan Bunyi Berikut\n(Tekan Gambar untuk Mengulang Bunyi)</string>
+    <string name="quiz_answer">Jawab</string>
+    <string name="quiz_clear">Clear</string>
+    <string name="quiz_backspace">Backspace</string>
+    <string name="major_title">Mayor</string>
+    <string name="perfect_title">Perfect</string>
+    <string name="question_interval_title">Soal Interval\nPilih Gambar yang Tepat Berdasarkan Bunyi\n(Tekan Tombol Soal untuk Mengulang Bunyi)</string>
+    <string name="question_melody_title">Soal Melodi\nSusun Sesuai dengan Bunyi Berikut\n(Tekan Gambar untuk Mengulang Bunyi)</string>
+    <string name="input_name">Masukkan Nama Anda (min. 3)</string>
 </resources>

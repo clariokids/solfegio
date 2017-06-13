@@ -38,6 +38,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@mipmap/interval_p_m"
+                android:id="@+id/sample_1"
                 android:contentDescription="@string/menu_interval" />
 
         </LinearLayout>
