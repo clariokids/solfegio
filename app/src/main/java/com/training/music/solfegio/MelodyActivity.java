@@ -35,7 +35,7 @@ public class MelodyActivity extends AppCompatActivity {
     private final static String TYPE = "type";
     int numberQuiz;
     int type;
-    int chance = 1;
+    int chance = 3;
     int right = 0;
     int score = 0;
 
@@ -287,14 +287,14 @@ public class MelodyActivity extends AppCompatActivity {
                             String[] digits2 = number.split("(?<=.)");
                             for(String indexOption: digits2){
                                 int selector = Integer.parseInt(indexOption);
-                                userAnswer.add(melodyOptionNotation.get(selector));
+                                userAnswer.add(melodyOptionNotation.get(selector-1));
                             }
                             Log.d("option1", compare.toString());
                             Log.d("option2", userAnswer.toString());
 
 
 
-                            for(int i=1; i<userAnswer.size()+1; i++){
+                            for(int i=0; i<userAnswer.size(); i++){
                                 Log.d("option3", userAnswer.get(i)+"");
                                 Log.d("option4", compare.get(i)+"");
                                 if(compare.get(i).equals(userAnswer.get(i))){
@@ -339,9 +339,10 @@ public class MelodyActivity extends AppCompatActivity {
                                 mediaPlayer.stop();
                             }
                             if(right==compare.size()){
+                                Toast.makeText(context, "Benar", Toast.LENGTH_SHORT).show();
                                 score++;
                             }
-                            chance = 1;
+                            chance = 3;
                             right = 0;
                             numberQuiz++;
 
@@ -350,7 +351,7 @@ public class MelodyActivity extends AppCompatActivity {
                                 compare = melodyAnswerMap.get(numberQuiz);
                                 try{
 //                            questionArea.removeAllViews();
-
+                                    buildList(numberQuiz);
                                     number_quiz.setText("No. "+numberQuiz+" ");
                                     number_quiz.setCompoundDrawablesWithIntrinsicBounds(0, 0, 0, melodyQuestionMap.get(numberQuiz));
                                     mediaPlayer = MediaPlayer.create(context, melodySoundMap.get(numberQuiz));

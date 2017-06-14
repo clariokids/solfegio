@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
     private LinearLayout infoText, menuContent, menuButton;
     ListView listView;
     private EditText usernameInput;
-    private TextView labelContent, helpText;
+    private TextView labelContent, helpText, helpText2;
     private Button rhythm, melody, interval;
     HashMap<String, String> listRhythm = new HashMap<String, String>();
     HashMap<String, String> listMelody = new HashMap<String, String>();
@@ -63,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
                     infoText.setVisibility(View.VISIBLE);
                     menuContent.setVisibility(View.GONE);
                     helpText.setVisibility(View.GONE);
+                    helpText2.setVisibility(View.GONE);
                     menuButton.setVisibility(View.VISIBLE);
                     usernameInput.setVisibility(View.VISIBLE);
                     listView.setVisibility(View.GONE);
@@ -75,6 +76,7 @@ public class MainActivity extends AppCompatActivity {
                     infoText.setVisibility(View.VISIBLE);
                     menuContent.setVisibility(View.GONE);
                     helpText.setVisibility(View.VISIBLE);
+                    helpText2.setVisibility(View.VISIBLE);
                     menuButton.setVisibility(View.GONE);
                     usernameInput.setVisibility(View.GONE);
                     listView.setVisibility(View.VISIBLE);
@@ -83,6 +85,7 @@ public class MainActivity extends AppCompatActivity {
 
                     labelContent.setText(R.string.label_content_help);
                     helpText.setText(R.string.contact_help);
+                    helpText2.setText(R.string.contact_help2);
 
                     type = 3;
                     return true;
@@ -107,6 +110,7 @@ public class MainActivity extends AppCompatActivity {
 
         labelContent = (TextView) findViewById(R.id.label_content_menu);
         helpText = (TextView) findViewById(R.id.help_text);
+        helpText2 = (TextView) findViewById(R.id.help_text_2);
 
         usernameInput = (EditText) findViewById(R.id.username);
 

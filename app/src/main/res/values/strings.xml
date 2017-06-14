@@ -25,7 +25,7 @@
     <string name="text_melody_2" translatable="false">\nContoh diatas merupakan tangga nada C Mayor, tangga nada natural yaitu tangga nada asli yang belum ada perubahan # (penaikan), b (penurunan). Untuk lebih jelasnya latihan tangga nada dengan lafal:</string>
     <string name="text_melody_3" translatable="false">\nB. Menulis Melodi \nLatihan ini ditekankan pada respon siswa terhadap melodi, baik melodi dipraktekkan/dinyanyikan maupun menulis melodi yang diperdengarkan. Hal-hal yang perlu diperhatikan adalah: \n 1. Perhatikan/dengarkan nada-nada secara baik \n 2. Perhatikan sukat di depan birama, dengan mendengarkan ketukan kuat (aksen) pada awal birama \n 3. Perhatikan bentuk pola ritme secara tepat</string>
     <string name="text_interval_1" translatable="false">Interval merupakan istilah yang menerangkan jarak antara nada satu dengan yang lain. Untuk mengetahui jarak antar nada tersebut biasanya diindikasikan dengan symbol-simbol interval. Contoh: P (Perfect), M (Mayor)</string>
-    <string name="contact_help">Contact us at 123-1234567</string>
+    <string name="contact_help" translatable="false">Gallha Patra Novandika\n16724251042\ngallha.pn@gmail.com</string>
     <string name="question_rhythm_title">Rhythm Question\nOrder the Correct Notation Based on the Sound \n(Click Image to Replay Sound)</string>
     <string name="quiz_answer">Answer</string>
     <string name="quiz_clear">Clear</string>
@@ -35,5 +35,6 @@
     <string name="question_interval_title">Interval Question\nChoose the Correct Image Based on the Sound\n(Click Button Soal to Replay Sound)</string>
     <string name="question_melody_title">Melody Question\nOrder the Correct Notation Based on the Sound \n(Click Image to Replay Sound)</string>
     <string name="input_name">Input Your Name (min. 3)</string>
+    <string name="contact_help2" translatable="false">Asri Purwanti\n16724251039\nmonica_asri89@yahoo.com</string>
 
 </resources>
